@@ -1,6 +1,6 @@
-# 滚动条编辑器
+# [滚动条在线编辑器](https://lvzhenbo.github.io/scrollbar-editor/)
 
-[Scrollbar.app](https://github.com/henripar/scrollbar) 的中文优化版，在原版的基础上添加了自定义选择器名称和交汇处颜色
+[Scrollbar.app](https://github.com/henripar/scrollbar) 的中文优化版，在原版的基础上添加了自定义选择器名称和交汇处颜色。
 
 ## 推荐 IDE 设置
 

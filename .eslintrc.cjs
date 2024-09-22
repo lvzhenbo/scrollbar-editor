@@ -23,14 +23,6 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'off',
     // 允许空函数 https://typescript-eslint.io/rules/no-empty-function/
     '@typescript-eslint/no-empty-function': 'off',
-    // 禁止未使用变量，除了下划线开头 https://typescript-eslint.io/rules/no-unused-vars/
-    '@typescript-eslint/no-unused-vars': [
-      'error',
-      {
-        argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_',
-      },
-    ],
     // 关闭强制多词组件名 https://eslint.vuejs.org/rules/multi-word-component-names.html
     'vue/multi-word-component-names': 'off',
     // 强制执行自我关闭风格 https://eslint.vuejs.org/rules/html-self-closing.html
@@ -44,14 +36,6 @@ module.exports = {
         },
         svg: 'always',
         math: 'always',
-      },
-    ],
-    // 禁止未使用变量，除了下划线开头 https://eslint.org/docs/latest/rules/no-unused-vars
-    'no-unused-vars': [
-      'error',
-      {
-        argsIgnorePattern: '^_',
-        varsIgnorePattern: '^_',
       },
     ],
   },

@@ -1,16 +1,10 @@
-# naive-tailwind-template
+# 滚动条编辑器
 
-一个简单的 Naive UI + TailwindCSS 的模板
-
-一个本人很喜欢的技术栈，[Naive UI](https://www.naiveui.com/) + [TailwindCSS](https://tailwindcss.com/)，这个模板可以让你快速开始一个项目。
-
-使用[unplugin-auto-import](https://github.com/antfu/unplugin-auto-import) + [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components)技术加持，自动导入不费力。
-
-~~PS：只是方便自己不用每次都搭建一次而已。~~
+[Scrollbar.app](https://github.com/henripar/scrollbar) 的中文优化版，在原版的基础上添加了自定义选择器名称和交汇处颜色
 
 ## 推荐 IDE 设置
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (并且禁用 Vetur ，推荐卸载) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (并且禁用 Vetur ，推荐卸载)
 
 额外插件：[Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) + [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) + [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)
 
@@ -63,3 +57,7 @@ pnpm lint
 ```sh
 pnpm format
 ```
+
+## 许可证
+
+[MIT](https://opensource.org/licenses/MIT)

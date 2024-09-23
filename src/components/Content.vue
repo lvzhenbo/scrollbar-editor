@@ -110,12 +110,11 @@
   import { useClipboard } from '@vueuse/core';
   import { WeatherMoon16Regular, WeatherSunny16Regular } from '@vicons/fluent';
   import { GithubFilled } from '@vicons/antd';
-  import { osThemeKey, switchThemeKey } from '@/utils';
+  import { switchThemeKey } from '@/utils';
 
-  const osThemeRef = inject(osThemeKey);
   const switchTheme = inject(switchThemeKey);
   const codeBg = computed(() => {
-    return osThemeRef?.value === 'dark' && switchTheme?.value ? 'bg-slate-950' : 'bg-slate-50';
+    return switchTheme?.value ? 'bg-slate-950' : 'bg-slate-50';
   });
   const message = useMessage();
   const { copy } = useClipboard();

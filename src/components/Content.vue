@@ -139,6 +139,9 @@
       ? `\n  border: ${settings.thumbBorderWidth}px solid ${settings.thumbBorderColor};`
       : '',
   );
+  const scrollbarWidth = computed(() =>
+    settings.width >= 17 || settings.height >= 17 ? 'auto' : 'thin',
+  );
 
   const code = computed(
     () => `${settings.selector} {
@@ -170,7 +173,8 @@ ${settings.selector}::-webkit-scrollbar-corner {
 
 @supports not selector(::-webkit-scrollbar) {
   ${settings.selector} {
-      scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+    scrollbar-width: ${scrollbarWidth.value};
   }
 }`,
   );
@@ -219,6 +223,7 @@ ${settings.selector}::-webkit-scrollbar-corner {
   @supports not selector(::-webkit-scrollbar) {
     .scrollbar {
       scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+      scrollbar-width: v-bind('scrollbarWidth');
     }
   }
 </style>

@@ -1,10 +1,10 @@
 # [滚动条编辑器](https://lvzhenbo.github.io/scrollbar-editor/)
 
-[Scrollbar.app](https://github.com/henripar/scrollbar) 的中文优化版，在原版的基础上添加了自定义选择器名称和交汇处颜色以及默认自动跟随系统主题功能（可自己手动切换，暂时不加入持久化）。
+[Scrollbar.app](https://github.com/henripar/scrollbar) 的中文优化版，在原版的基础上添加了**自定义选择器名称**、**交汇处颜色**、**滚动条宽度标准CSS**以及默认自动跟随系统主题功能（可自己手动切换，暂时不加入持久化）。
 
 ## 推荐 IDE 设置
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (并且禁用 Vetur ，推荐卸载)
+[VSCode](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (并且禁用 Vetur ，推荐卸载)
 
 额外插件：[Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) + [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) + [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)
 

@@ -107,7 +107,6 @@
 </template>
 
 <script setup lang="ts">
-  import { useClipboard } from '@vueuse/core';
   import { WeatherMoon16Regular, WeatherSunny16Regular } from '@vicons/fluent';
   import { GithubFilled } from '@vicons/antd';
   import { switchThemeKey } from '@/utils';

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { zhCN, dateZhCN, useOsTheme, darkTheme, lightTheme, type GlobalTheme } from 'naive-ui';
+  import { zhCN, dateZhCN, darkTheme, lightTheme, type GlobalTheme } from 'naive-ui';
   import hljs from 'highlight.js/lib/core';
   import css from 'highlight.js/lib/languages/css';
   import { switchThemeKey } from './utils';
